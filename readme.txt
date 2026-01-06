@@ -81,8 +81,9 @@ If your host runs "mod security" on your hosting and has some specific additiona
 
 == Changelog ==
 
-= 1.4.15 - 2025-12-TBD =
+= 1.4.15 - 2026-1-TBD =
 * Turnstile captcha support for UWP Getresponse addon forms - ADDED
+* Turnstile captcha support for UWP Aweber addon forms - ADDED
 
 = 1.4.14 - 2025-12-04 =
 * Remove unused plugin array elements from API calls to prevent issues with servers with low max_input_vars - FIXED
