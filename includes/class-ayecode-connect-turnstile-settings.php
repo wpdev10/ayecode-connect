@@ -430,6 +430,17 @@ class AyeCode_Connect_Turnstile_Settings {
                                             ];
                                         }
 
+                                        if ( defined( 'UWP_CC_VERSION' ) ) {
+                                            $turnstile_protections['uwp_cc_subscribe'] = [
+                                                'title'   => __( 'UsersWP  - Constant Contact Subscribe Form', 'ayecode-connect' ),
+                                                'default' => true
+                                            ];
+                                            $turnstile_protections['uwp_cc_unsubscribe'] = [
+                                                'title'   => __( 'UsersWP  - UWP_CC_VERSION Unsubscribe Form', 'ayecode-connect' ),
+                                                'default' => true
+                                            ];
+                                        }
+
 										// UWP Frontend Post Addon
 										if ( defined( 'UWP_FRONTEND_POST_VERSION' ) ) {
 											$turnstile_protections['uwp_frontend'] = [
